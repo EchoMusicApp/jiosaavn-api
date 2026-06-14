@@ -78,7 +78,10 @@ export class App {
 
   private initializeRouteFallback() {
     this.app.notFound((ctx) => {
-      return ctx.json({ success: false, message: 'route not found, check docs at https://saavn.echomusic.fun/docs' }, 404)
+      return ctx.json(
+        { success: false, message: 'route not found, check docs at https://saavn.echomusic.fun/docs' },
+        404
+      )
     })
   }
 

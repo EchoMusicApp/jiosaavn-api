@@ -30,7 +30,10 @@ Home.get('/', (c) => {
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
         <style
           dangerouslySetInnerHTML={{
             __html: `
@@ -200,29 +203,51 @@ Home.get('/', (c) => {
       <body>
         <div class="container">
           <div class="logo-container">
-            <img src="https://raw.githubusercontent.com/EchoMusicApp/jiosaavn-api/main/assets/Echo-White.png" alt="Echo Music Logo" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+            <img
+              src="https://raw.githubusercontent.com/EchoMusicApp/jiosaavn-api/main/assets/Echo-White.png"
+              alt="Echo Music Logo"
+              style={{ width: '32px', height: '32px', objectFit: 'contain' }}
+            />
           </div>
           <h1>JioSaavn API</h1>
-          <p class="subtitle">An unofficial API for downloading high-quality songs, albums, and playlists from JioSaavn.</p>
+          <p class="subtitle">
+            An unofficial API for downloading high-quality songs, albums, and playlists from JioSaavn.
+          </p>
 
           <div class="url-field">
-            <div class="url-input" id="base-url">https://saavn.echomusic.fun/api</div>
-            <button class="copy-btn" id="copy-btn" onclick="copyUrl()">Copy URL</button>
+            <div class="url-input" id="base-url">
+              https://saavn.echomusic.fun/api
+            </div>
+            <button class="copy-btn" id="copy-btn" onclick="copyUrl()">
+              Copy URL
+            </button>
           </div>
 
           <div class="instructions-title">Quick Links</div>
           <ol class="steps">
             <li class="step">
-                <span class="step-number">1.</span>
-                <span class="step-text"><a href="/docs">Explore the <span class="highlight">API Documentation</span></a></span>
+              <span class="step-number">1.</span>
+              <span class="step-text">
+                <a href="/docs">
+                  Explore the <span class="highlight">API Documentation</span>
+                </a>
+              </span>
             </li>
             <li class="step">
-                <span class="step-number">2.</span>
-                <span class="step-text"><a href="https://github.com/EchoMusicApp/jiosaavn-api" target="_blank" rel="noopener noreferrer">View source on <span class="highlight">GitHub</span></a></span>
+              <span class="step-number">2.</span>
+              <span class="step-text">
+                <a href="https://github.com/EchoMusicApp/jiosaavn-api" target="_blank" rel="noopener noreferrer">
+                  View source on <span class="highlight">GitHub</span>
+                </a>
+              </span>
             </li>
             <li class="step">
-                <span class="step-number">3.</span>
-                <span class="step-text"><a href="https://github.com/EchoMusicApp/jiosaavn-api/issues" target="_blank" rel="noopener noreferrer">Report an <span class="highlight">Issue</span></a></span>
+              <span class="step-number">3.</span>
+              <span class="step-text">
+                <a href="https://github.com/EchoMusicApp/jiosaavn-api/issues" target="_blank" rel="noopener noreferrer">
+                  Report an <span class="highlight">Issue</span>
+                </a>
+              </span>
             </li>
           </ol>
         </div>
