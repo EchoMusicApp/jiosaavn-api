@@ -1,64 +1,49 @@
 # JioSaavn API
 
-![GitHub License](https://img.shields.io/github/license/sumitkolhe/jiosaavn-api)
-![GitHub Release](https://img.shields.io/github/v/release/sumitkolhe/jiosaavn-api)
+![GitHub License](https://img.shields.io/github/license/EchoMusicApp/jiosaavn-api)
+![GitHub Release](https://img.shields.io/github/v/release/EchoMusicApp/jiosaavn-api)
 
-An Unofficial API for downloading high-quality songs, albums, playlists, and more from [JioSaavn](https://jiosaavn.com).
+An unofficial API for downloading high-quality songs, albums, playlists, and more from [JioSaavn](https://jiosaavn.com).
 
-## 📚 Documentation
+## Quick Links
+- **Base URL:** `https://saavn.echomusic.fun/api`
+- **Documentation:** [saavn.echomusic.fun/docs](https://saavn.echomusic.fun/docs)
+- **Changelog:** [CHANGELOG.md](CHANGELOG.md)
 
-Check out the [API documentation](https://saavn.dev/docs) for detailed information on how to use the API.
-
-## 📰 Changelog
-
-For a detailed list of changes, see the [CHANGELOG](CHANGELOG.md).
-
-## 🔌 Running Locally
+## Running Locally
 
 1. Clone the repository:
-
    ```sh
-   git clone https://github.com/sumitkolhe/jiosaavn-api
+   git clone https://github.com/EchoMusicApp/jiosaavn-api
    cd jiosaavn-api
    ```
 
 ### Using Docker
-
 ```sh
 docker-compose up
 ```
-
-OR
 
 ### Manually
 
 > [!NOTE]
 > You need `Bun(1.0.29+)` or `Node.js(v20+)`
 
-2. Install the required dependencies:
-
+2. Install the dependencies and start the server:
    ```sh
    bun install
-   ```
-
-3. Launch the development server:
-
-   ```sh
    bun run dev
    ```
 
-## ☁️ Deploying Your Own Instance
+## Deployment
 
-JioSaavn API can be deployed to either Cloudflare Workers or Vercel. Below are the instructions for deploying to each platform.
+You can deploy your own instance of the JioSaavn API to Cloudflare Workers or Vercel.
 
-### Cloudflare Workers
+<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/EchoMusicApp/jiosaavn-api">
+  <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy with Cloudflare Workers" height="32" />
+</a>
+<a href="https://vercel.com/new/clone?repository-url=https://github.com/EchoMusicApp/jiosaavn-api">
+  <img src="https://vercel.com/button" alt="Deploy with Vercel" height="32" />
+</a>
 
-[![Deploy with Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/sumitkolhe/jiosaavn-api)
-
-### Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/sumitkolhe/jiosaavn-api)
-
-## 📜 License
-
-This project is distributed under the [MIT License](https://opensource.org/licenses/MIT). For more information, see the [LICENSE](LICENSE) file included in this repository.
+## License
+Distributed under the [MIT License](LICENSE).
